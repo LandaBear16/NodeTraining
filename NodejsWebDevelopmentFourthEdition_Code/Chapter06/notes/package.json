@@ -3,8 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "DEBUG=notes:* node ./bin/www", 
-    "server1": "DEBUG=notes:* PORT=3001 node ./bin/www", 
+    "start": "DEBUG=notes:* node ./bin/www",
+    "server1": "DEBUG=notes:* PORT=3001 node ./bin/www",
     "server2": "DEBUG=notes:* PORT=3002 node ./bin/www",
     "dl-minty": "mkdir -p minty && npm run dl-minty-css && npm run dl-minty-min-css",
     "dl-minty-css": "wget https://bootswatch.com/4/minty/bootstrap.css -O minty/bootstrap.css",
@@ -19,7 +19,7 @@
     "morgan": "~1.9.0",
     "serve-favicon": "~2.4.5",
     "bootstrap": "^4.0.0-beta.3",
-    "jquery": "1.9.1",
+    "jquery": ">=3.0.0",
     "popper.js": "^1.12.5",
     "feather-icons": ">=4.5.x"
   }
